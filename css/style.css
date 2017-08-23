@@ -1,0 +1,81 @@
+/* WORKFLOW CRIEE POUGLOAZEC */
+body
+{
+	background: url('criee.jpg') no-repeat center center fixed;
+}
+
+
+table
+{
+    border-collapse: collapse;
+}
+
+
+.row{
+	width: 100%;
+}
+
+.divcenter{
+	width : 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.div1{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255, 255, 255, 0.3);
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+}
+
+.jumbotron-opacity {
+    background-color: rgba(255,255,255, 0.5) !important;
+    color: inherit;
+}
+
+.diff-hauteur {
+    margin-top : 2%;
+}
+
+.jumbotron-shadow
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
